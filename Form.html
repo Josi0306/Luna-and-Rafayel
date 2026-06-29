@@ -1,0 +1,218 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna and Rafayel</title>
+    <link rel="stylesheet" href="web.css">
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .nav{
+            height: 40px;
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 30px;
+            border-radius: 10cm;
+            background-color: white;
+            box-shadow: 20px 40px 40px #00000033;
+            padding: 10px;
+
+        }
+        .navlist li{
+            position: relative;
+            float: left;
+            height: 40px;
+            width: 300px;
+            line-height: 40px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .navlist a{
+            color: #3f569b;
+            display: block;
+            border-radius: 10cm;
+            font: 500 24px '芫荽';
+        }
+
+        .navlist{
+            width: 800px;
+            margin: auto;
+        }
+
+        .navlist a:hover {
+            background: #c2d3fd;
+        }
+
+        .container {
+            margin:  0 auto;
+            margin-top: 70px;
+            width: 1500px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .container .card {
+            position: relative;
+            width: 320px;
+            height: 250px;
+            background: white;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .container .card:hover {
+            height: 350px;
+        }
+
+        .container .card .img-box {
+            position: absolute;
+            inset: 20px 20px 50px 20px;
+            background: pink;
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+
+        .container .card:hover .img-box{
+            inset: -50px 60px 250px 60px;
+            box-shadow:  0 0 0 10px var(--clr);
+        }
+
+        .container .card .img-box img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .container .card p {
+            position: relative;
+            font: 500 24px '芫荽';
+            padding: 40px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(-50px);
+            transition: 0.5s;
+            color: #3f569b;
+        }
+
+        .container .card:hover p {
+            opacity: 1;
+            transform: translateY(40px);
+        }
+
+        .container .card h2 {
+            position: absolute;
+            bottom: 8px;
+            color: #3f569b;
+            transition: 0.5s;
+            font-weight: 600;
+        }
+
+        .container .card:hover h2 {
+            padding: 5px 25px;
+            background: #b7a8d6;
+            color: white;
+            bottom: -25px;
+            border-radius: 15px;
+            box-shadow: 0 0 0 10px var(--clr);
+        }
+
+
+
+
+    </style>
+</head>
+<body> 
+    <div class="nav"> 
+        <u1 class ="navlist"> 
+            <li><a href="Home.html"><strong>主頁</strong></a></li>
+            <li><a href="AboutUS.html"><strong>關於月月和祁煜</strong></a></li>
+            <li><a href="Form.html"><strong>月月的付出</strong></a></li>
+            <li><a href="Album.html"><strong>相冊</strong></a></li>
+        </u1>
+    </div>
+
+    <div class="container"> 
+        <div class="card"> 
+            <div class="img-box">
+                <img src="photo/album25.jpg">
+            </div>
+            <p> 數量 : 14<br>價值 : ¥568.00</p>
+            <h2> 色紙 </h2>
+        </div>
+        <div class="card"> 
+            <div class="img-box"> 
+                <img src="photo/album51.png">
+            </div>
+            <p> 數量 : 42 <br>價值 : ¥834.00 </p>
+            <h2> 拍立得/小卡 </h2>
+        </div>
+        <div class="card"> 
+            <div class="img-box"> 
+                <img src="photo/album52.png">
+            </div>
+            <p> 數量 : 61<br>價值 : ¥797.00 </p>
+            <h2> 鐳射票/明信片/大卡 </h2>
+        </div>
+        <div class="card"> 
+            <div class="img-box"> 
+                <img src="photo/album50.png">
+            </div>
+            <p> 數量 : 27<br>價值 : ¥1,519.00 </p>
+            <h2> 立牌/亞克力 </h2>
+        </div>
+        <div class="card"> 
+            <div class="img-box"> 
+                <img src="photo/album49.png">
+            </div>
+            <p> 數量 : 71<br>價值 : ¥1,284.00 </p>
+            <h2> 徽章 </h2>
+        </div>
+        <div class="card"> 
+            <div class="img-box"> 
+                <img src="photo/album39.jpg">
+            </div>
+            <p> 數量 : 33<br>價值 : ¥1,705.70 </p>
+            <h2> 其他 </h2>
+        </div>
+        <div class="card"> 
+            <div class="img-box"> 
+                <img src="photo/album21.jpg">
+            </div>
+            <p> 數量 : 43<br>價值 : ¥278.00 </p>
+            <h2> 其他（紙類） </h2>
+        </div>
+        <div class="card"> 
+            <div class="img-box"> 
+                <img src="photo/album07.jpg">
+            </div>
+            <p> 數量 : 3<br>價值 : ¥1800.00 <br> (不包含自產) </p>
+            <h2> 稿件 </h2>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
+</body>
+</html>

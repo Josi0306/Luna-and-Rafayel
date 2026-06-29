@@ -1,0 +1,269 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna and Rafayel</title>
+    <link rel="stylesheet" href="web.css">
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .nav{
+            height: 40px;
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 30px;
+            border-radius: 10cm;
+            background-color: white;
+            box-shadow: 20px 40px 40px #00000033;
+            padding: 10px;
+
+        }
+        .navlist li{
+            position: relative;
+            float: left;
+            height: 40px;
+            width: 300px;
+            line-height: 40px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .navlist a{
+            color: #3f569b;
+            display: block;
+            border-radius: 10cm;
+            font: 500 24px '芫荽';
+        }
+
+        .navlist{
+            width: 800px;
+            margin: auto;
+        }
+
+        .navlist a:hover {
+            background: #c2d3fd;
+        }
+
+        .box{
+            width: 1200px;
+            margin: auto;
+            padding-top: 80px;
+        }
+        .box>.title{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+        .box>.title>.item{
+            background: white;
+            height: 80px;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 28px;
+            box-shadow: 0 0 10px #fff;
+            cursor: pointer;
+        }
+
+        .box>.title>.item>img{
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            transition: .5s;
+            object-fit: cover;
+        }
+
+        .box>.title>.item>span{
+            color: #3f569b;
+            font-size: 18px;
+            letter-spacing: 5px;
+            margin-right: 10px;
+            font-weight: bold;
+            transition: .5s;
+
+        }
+
+        .box>.title>.checked{
+            background: #fbbcf6;
+            box-shadow: 0 0 28px #fff;
+
+
+        }
+
+        .box>.title>.checked>span{
+            margin-right: 35px;
+        }
+
+        .box>.title>.checked>img{
+            transform: scale(1.5);
+        }
+
+        .content{
+            background-color: white;
+            height: 0;
+            padding: 0;
+            overflow: hidden;
+            border-radius: 30px;
+            color: #3f569b;
+            opacity: 0;
+            transition: .5s;
+        }
+
+        .che{
+            opacity: 1;
+            height: 600px;
+            padding: 20px;
+        }
+
+        .content>h1{
+            font-size: 20px;
+            margin: 20px 0;
+        }
+
+        .content>.body{
+            font-size: 18px;
+            line-height: 2;
+            text-align: justify;
+            float: left;
+        }
+
+        .imgList{
+            display: inline-flex;
+            justify-content:space-between;
+            margin-top: 10px;
+        }
+
+        .imgList>img{
+            width: 100%;
+            height: 330px;
+            object-fit: cover;
+            border-radius: 30px;
+            padding: 0 5px;
+        }
+
+
+    </style>
+</head>
+<body> 
+    <div class="nav"> 
+        <u1 class ="navlist"> 
+            <li><a href="Home.html"><strong>主頁</strong></a></li>
+            <li><a href="AboutUS.html"><strong>關於月月和祁煜</strong></a></li>
+            <li><a href="Form.html"><strong>月月的付出</strong></a></li>
+            <li><a href="Album.html"><strong>相冊</strong></a></li>
+        </u1>
+    </div>
+    <div class="box"> 
+        <div class="title"> 
+            <div class="item checked"> 
+                <span>關於月月</span>
+                <img src="photo/album42.gif" alt="">
+            </div>
+            <div class="item"> 
+                <span>我的雷點？</span>
+                <img src="photo/album43.gif" alt="">
+            </div>
+            <div class="item"> 
+                <span>關於我們</span>
+                <img src="photo/album44.gif" alt="">
+            </div>
+            <div class="item"> 
+                <span>安定List</span>
+                <img src="photo/album45.gif " alt="">
+            </div>
+        </div>
+        <div class="content che"> 
+            <h1></h1>
+            <div class="body"> 
+                中文⭕ English⭕ 日本語 🔺 <span> 歡迎大家叫我秋月/月/（各位喜好）<br>
+                11月19生日！已經過20歲了~<br>
+                會日常發瘋，更新頻率也極不穩定<span> 雷同夢/同嫁，歡迎通知互block<br>
+                本人十分慢熱，不要嫌棄(。_。)<br>
+                低級中英夾雜（HongKonglish）<span> 喜歡用emoji！！<br>
+            </div>
+            <div class="imgList"> 
+                <img src="photo/album12.jpg" alt="" />
+                <img src="photo/album15.jpg" alt="" />
+                <img src="photo/album16.jpg" alt="" />
+                <img src="photo/album18.jpg" alt="" />
+            </div>
+        </div>
+        <div class="content"> 
+            <h1></h1>
+            <div class="body"> 
+                本人從小就確定自己不喜歡結婚，也不喜歡生小孩。這一點熟悉我的人也知道，就算是我現在有了男朋友，也未曾改變這個想法。<br>
+                雖然不會結婚，但已經和祁煜商量好立下婚約！可以叫他「未婚夫」哦！<br>
+                自己不拒同擔，但某程度上不想看到同夢同嫁，如果對方拒同擔/夢/嫁，可以DM本人互blk！<br>
+            </div>
+            <div class="imgList"> 
+                <img src="photo/album21.jpg" alt="" />
+                <img src="photo/album24.jpg" alt="" />
+            </div>
+        </div>
+        <div class="content"> 
+            <h1></h1>
+            <div class="body"> 
+                2024.01.18 相遇（一見鐘情）<br>
+                2024.07.16 初約會+旅行<br>
+                2024.09.05 相愛<br>
+                2025.07.16 交往一周年<br>
+                2026.05.25 二周年旅行（慶祝520）<br>
+                2026.07.16 交往二週年（我的求婚）<br>
+            </div>
+            <div class="imgList"> 
+                <img src="photo/album32.jpg" alt="" />
+                <img src="photo/album28.jpg" alt="" />
+                <img src="photo/album36.jpg" alt="" />
+            </div>
+        </div>
+        <div class="content"> 
+            <h1></h1>
+            <div class="body"> 
+                （會幫拒）<br>
+                陸沉_T<br>
+                劉梟_冰<br>
+                里昂里奧·帕拉丁奈特_白<br>
+                ＞本身認識無所謂
+            </div>
+            <div class="imgList"> 
+                <img src="photo/album41.gif" alt="" />
+                <img src="photo/album46.gif" alt="" />
+                <img src="photo/album53.gif" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <script> 
+        let titlist = document.querySelectorAll('.title>.item');
+        let conlist = document.querySelectorAll('.content');
+        for(let i = 0;i<titlist.length;i++){
+            titlist[i].onclick=function(){
+                clear();
+                titlist[i].classList.add('checked');
+                conlist[i].classList.add('che');
+            }
+        }
+
+        function clear() {
+            for(let i = 0;i<titlist.length;i++){
+                titlist[i].classList.remove('checked');
+                conlist[i].classList.remove('che');
+            }
+        }
+    </script>
+    <section>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
+</body>
+</html>
